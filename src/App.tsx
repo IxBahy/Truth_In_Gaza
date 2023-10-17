@@ -1,6 +1,8 @@
 import MainLayout from "./Layout/MainLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
+import Threads from "./Pages/Threads";
+import ImagesTable from "./Pages/ImagesTable";
 const router = createBrowserRouter([
 	{
 		path: "",
@@ -15,12 +17,16 @@ const router = createBrowserRouter([
 		),
 		children: [
 			{
-				path: "/",
+				path: "",
 				element: <Home />,
 			},
 			{
 				path: "Threads",
-				element: <>hiii</>,
+				element: <Threads />,
+			},
+			{
+				path: "/Crimes/:name",
+				element: <ImagesTable />,
 			},
 		],
 	},

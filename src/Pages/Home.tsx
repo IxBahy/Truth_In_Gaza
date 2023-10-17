@@ -2,7 +2,8 @@ import NavGrid from "@/components/NavGrid";
 
 const Home = () => {
 	const imgUrl = new URL("../../bloody_isreal.webp", import.meta.url).href;
-
+	// KOSO5T ISRAEL
+	//W KOSO5T AMRIKKKA
 	return (
 		<section>
 			<div className=" text-center mt-8 mx-auto w-[360px]">
