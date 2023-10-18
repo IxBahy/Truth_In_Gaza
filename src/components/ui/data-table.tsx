@@ -4,7 +4,6 @@ import {
 	getCoreRowModel,
 	useReactTable,
 } from "@tanstack/react-table";
-import React from "react";
 
 import {
 	Table,
