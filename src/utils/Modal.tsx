@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import Transition from "./Transition";
-import { X } from "lucide-react";
 interface Props extends React.PropsWithChildren {
 	id: string;
 	ariaLabel: string;
@@ -13,7 +12,7 @@ function Modal({ children, id, ariaLabel, show, handleClose }: Props) {
 
 	// close the modal on click outside
 	useEffect(() => {
-		const clickHandler = ({ target }) => {
+		const clickHandler = ({ target }: MouseEvent) => {
 			if (target === modalBackdrop.current) {
 				handleClose();
 			}
@@ -26,7 +25,7 @@ function Modal({ children, id, ariaLabel, show, handleClose }: Props) {
 
 	// close the modal if the esc key is pressed
 	useEffect(() => {
-		const keyHandler = ({ keyCode }) => {
+		const keyHandler = ({ keyCode }: KeyboardEvent) => {
 			if (keyCode !== 27) return;
 			handleClose();
 		};
@@ -39,6 +38,7 @@ function Modal({ children, id, ariaLabel, show, handleClose }: Props) {
 	return (
 		<>
 			{/* Modal backdrop */}
+			{/* @ts-ignore */}
 			<Transition
 				className="fixed inset-0 z-50 bg-black bg-opacity-75 transition-opacity"
 				show={show}
@@ -73,13 +73,7 @@ function Modal({ children, id, ariaLabel, show, handleClose }: Props) {
 						className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0"
 					>
 						<span className="hidden sm:inline-block sm:align-middle sm:h-screen"></span>
-						<div className=" z-50 min-h-[15rem] max-h-auto inline-block w-4/5 align-bottom bg-gray-700 rounded-xl text-left overflow-hidden shadow-lg drop-shadow-md shadow-gray-800 transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full py-4">
-							<button
-								onClick={handleClose}
-								className="block absolute right-3 top-3 rounded-md w-6 hover:bg-red-200 hover:outline hover:outline-1 hover:outline-red-900 "
-							>
-								<X className="w-full  text-red-700" />
-							</button>
+						<div className=" z-50 min-h-[15rem] max-h-auto inline-block w-4/5 align-bottom bg-transparent rounded-xl text-left overflow-hidden  transform transition-all  sm:align-middle sm:max-w-lg sm:w-full ">
 							<div ref={modalContent}>{children}</div>
 						</div>
 					</div>

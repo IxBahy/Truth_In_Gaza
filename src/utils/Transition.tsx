@@ -1,6 +1,6 @@
+// @ts-nocheck
 import React, { useRef, useEffect, useContext } from "react";
 import { CSSTransition as ReactCSSTransition } from "react-transition-group";
-
 const TransitionContext = React.createContext({
 	parent: {},
 });
