@@ -2,7 +2,7 @@ import MainLayout from "./Layout/MainLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
 import Threads from "./Pages/Threads";
-import ImagesTable from "./Pages/ImagesTable";
+import Images from "./Pages/Images";
 const router = createBrowserRouter([
 	{
 		path: "",
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/Crimes/:name",
-				element: <ImagesTable />,
+				element: <Images />,
 			},
 		],
 	},
