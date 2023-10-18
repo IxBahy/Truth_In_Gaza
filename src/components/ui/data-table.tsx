@@ -4,13 +4,9 @@ import {
 	getCoreRowModel,
 	useReactTable,
 } from "@tanstack/react-table";
+import React from "react";
 
-import {
-	Table,
-	TableBody,
-	TableCell,
-	TableRow,
-} from "@/components/ui/table";
+import { Table, TableBody, TableCell, TableRow } from "./table";
 
 interface DataTableProps<TData, TValue> {
 	columns: ColumnDef<TData, TValue>[];
@@ -30,7 +26,6 @@ export function DataTable<TData, TValue>({
 	return (
 		<div className="rounded-md border">
 			<Table>
-
 				<TableBody className="grid grid-cols-2 gap-4 ms-2 mt-6 pb-6 lg:grid-cols-3 lg:justify-items-center lg:w-4/5 lg:mx-auto">
 					{table.getRowModel().rows?.length ? (
 						table.getRowModel().rows.map((row) => (

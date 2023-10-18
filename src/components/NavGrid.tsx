@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
 const NavGrid = () => {
 	const childrenImgUrl = new URL("../../public/children.webp", import.meta.url)

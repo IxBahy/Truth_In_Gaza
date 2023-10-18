@@ -1,4 +1,5 @@
-import NavGrid from "@/components/NavGrid";
+import NavGrid from "../components/NavGrid";
+import React from "react";
 
 const Home = () => {
 	const imgUrl = new URL("../../bloody_isreal.webp", import.meta.url).href;
