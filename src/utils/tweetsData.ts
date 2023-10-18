@@ -50,16 +50,21 @@ const childrenTweets: tweet[] = [
 		tweetID: "1714688100679491729",
 	},
 	{
-		image: new URL("../../public/children/4.webp", import.meta.url).href,
-		tweetID: "1714695422013268412",
+		image: "https://pbs.twimg.com/media/F8q7ZlOXoAAzwta?format=jpg&name=small",
+		tweetID: "1714388713751347361",
 	},
 	{
-		image: new URL("../../public/children/4.webp", import.meta.url).href,
-		tweetID: "1714695422013268412",
+		image: new URL("../../public/children/10.webp", import.meta.url).href,
+		tweetID: "1714712430759026739",
 	},
 	{
-		image: new URL("../../public/children/4.webp", import.meta.url).href,
-		tweetID: "1714695422013268412",
+		image:
+			"https://pbs.twimg.com/media/F8t4IlgXQAACsef?format=jpg&name=900x900",
+		tweetID: "1714596179407745213",
+	},
+	{
+		image: new URL("../../public/children/11.webp", import.meta.url).href,
+		tweetID: "1714596526863884389",
 	},
 ];
 //////////////////////////////////////////////////////
