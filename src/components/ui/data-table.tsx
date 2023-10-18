@@ -50,7 +50,7 @@ export function DataTable<TData, TValue>({
 						</TableRow>
 					))}
 				</TableHeader> */}
-				<TableBody>
+				<TableBody className="grid grid-cols-2 gap-4 ms-2 mt-6 pb-6">
 					{table.getRowModel().rows?.length ? (
 						table.getRowModel().rows.map((row) => (
 							<TableRow
