@@ -66,21 +66,65 @@ const childrenTweets: tweet[] = [
 		image: new URL("../../public/children/11.webp", import.meta.url).href,
 		tweetID: "1714596526863884389",
 	},
+	{
+		image: new URL("../../public/children/12.webp", import.meta.url).href,
+		tweetID: "1714737496431681537",
+	},
+	{
+		image: "https://pbs.twimg.com/media/F8v0SJzWQAAB7VS?format=jpg&name=small",
+		tweetID: "1714732686747574325",
+	},
+	{
+		image: "https://pbs.twimg.com/media/F8Wjz5aXcAA6Etj?format=jpg&name=small",
+		tweetID: "1712955370677674227",
+	},
 ];
 //////////////////////////////////////////////////////
 //////////////////// Women ///////////////////////////
 //////////////////////////////////////////////////////
-const womenTweets: tweet[] = [];
-
+const womenTweets: tweet[] = [
+	{
+		image:
+			"https://pbs.twimg.com/media/F8jXVktXwAAdZa8?format=jpg&name=360x360",
+		tweetID: "1713856441121902891",
+	},
+	{
+		image: new URL("../../public/women/1.webp", import.meta.url).href,
+		tweetID: "1714680119644565522",
+	},
+];
 //////////////////////////////////////////////////////
 //////////////////// Medic ///////////////////////////
 //////////////////////////////////////////////////////
-const medicTweets: tweet[] = [];
+const medicTweets: tweet[] = [
+	{
+		image:
+			"https://pbs.twimg.com/media/F8qFMs1WoAAKmfu?format=jpg&name=900x900",
+		tweetID: "1714329068252930527",
+	},
+	{
+		image: new URL("../../public/medic/3.webp", import.meta.url).href,
+		tweetID: "1714368847677919703",
+	},
+];
 
 //////////////////////////////////////////////////////
 //////////////////// Homes ///////////////////////////
 //////////////////////////////////////////////////////
-const homesTweets: tweet[] = [];
+const homesTweets: tweet[] = [
+	{
+		image: new URL("../../public/Homes/1.webp", import.meta.url).href,
+		tweetID: "1711427665897677254",
+	},
+	{
+		image: new URL("../../public/Homes/2.webp", import.meta.url).href,
+		tweetID: "1712563063600410893",
+	},
+	{
+		image: "https://pbs.twimg.com/media/F8jgsFwWYAA7r1_?format=jpg&name=small",
+		tweetID: "1713866709436624902",
+	},
+];
 
 /////////////////////////////////////////////////////////////
 export const tweetsData: tweetsData = {
