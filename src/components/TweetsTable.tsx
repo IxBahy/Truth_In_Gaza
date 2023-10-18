@@ -1,9 +1,8 @@
-import React from "react";
-import { tweet, tweetsData, tweetsType } from "../utils/tweetsData";
+import { tweet, tweetsData, tweetsType } from "@/utils/tweetsData";
 import { ColumnDef } from "@tanstack/react-table";
 import { DataTable } from "./ui/data-table";
 import ImageCard from "./ImageCard";
-import Modal from "../utils/Modal";
+import Modal from "@/utils/Modal";
 import { useState } from "react";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import Loader from "./Loader";

@@ -1,7 +1,7 @@
+import { cn } from "@/lib/utils";
 import { NavigationMenuLink } from "@radix-ui/react-navigation-menu";
 import React from "react";
 import { Link } from "react-router-dom";
-import { cn } from "../../lib/utils";
 
 export const ListItem = React.forwardRef<
 	React.ElementRef<"a">,

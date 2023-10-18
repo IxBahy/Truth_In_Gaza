@@ -1,4 +1,3 @@
-import React from "react";
 import {
 	NavigationMenu,
 	NavigationMenuContent,
@@ -6,8 +5,8 @@ import {
 	NavigationMenuLink,
 	NavigationMenuList,
 	NavigationMenuTrigger,
-} from "../../components/ui/navigation-menu";
-import { ListItem } from "../../components/ui/ListItem";
+} from "@/components/ui/navigation-menu";
+import { ListItem } from "@/components/ui/ListItem";
 import { Link } from "react-router-dom";
 const Navbar = () => {
 	//To do create sections lists
