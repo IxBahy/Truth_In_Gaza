@@ -79,6 +79,22 @@ const childrenTweets: tweet[] = [
 		tweetID: "1714723637108916705",
 	},
 	{
+		image: new URL("../../public/children/15.webp", import.meta.url).href,
+		tweetID: "1715015480862490861",
+	},
+	{
+		image: new URL("../../public/children/16.webp", import.meta.url).href,
+		tweetID: "1715050387567456421",
+	},
+	{
+		image: new URL("../../public/children/17.webp", import.meta.url).href,
+		tweetID: "1715015406619128074",
+	},
+	{
+		image: new URL("../../public/children/18.webp", import.meta.url).href,
+		tweetID: "1715051856529936876",
+	},
+	{
 		image: "https://pbs.twimg.com/media/F8v0SJzWQAAB7VS?format=jpg&name=small",
 		tweetID: "1714732686747574325",
 	},
@@ -99,6 +115,14 @@ const womenTweets: tweet[] = [
 	{
 		image: new URL("../../public/women/1.webp", import.meta.url).href,
 		tweetID: "1714680119644565522",
+	},
+	{
+		image: "https://pbs.twimg.com/media/F8yyHtYXUAA1eB1?format=jpg&name=small",
+		tweetID: "1714956502681763956",
+	},
+	{
+		image: "https://pbs.twimg.com/media/F8zzDdXW8AARWhk?format=jpg&name=small",
+		tweetID: "1715012801519899041",
 	},
 ];
 //////////////////////////////////////////////////////
@@ -122,6 +146,10 @@ const medicTweets: tweet[] = [
 		image: new URL("../../public/medic/5.webp", import.meta.url).href,
 		tweetID: "1714693167499313439",
 	},
+	{
+		image: "https://pbs.twimg.com/media/F8kBtVzWMAAd2cS?format=jpg&name=medium",
+		tweetID: "1713903031366902110",
+	},
 ];
 
 //////////////////////////////////////////////////////
@@ -139,6 +167,10 @@ const homesTweets: tweet[] = [
 	{
 		image: new URL("../../public/Homes/3.webp", import.meta.url).href,
 		tweetID: "1714735138846777368",
+	},
+	{
+		image: new URL("../../public/Homes/4.webp", import.meta.url).href,
+		tweetID: "1714962299881214189",
 	},
 	{
 		image: "https://pbs.twimg.com/media/F8jgsFwWYAA7r1_?format=jpg&name=small",
