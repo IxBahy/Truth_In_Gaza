@@ -58,27 +58,27 @@ export type threadPreview = {
 
 const firstThreadPreview: threadPreview = {
 	name: "#1 History of the Conflict",
-	img: "../../public/threads/first/002.jpeg",
+	img: new URL("../../public/threads/first/002.jpeg", import.meta.url).href,
 	type: "first",
 };
 const secondThreadPreview: threadPreview = {
 	name: "#2",
-	img: "../../public/threads/first/002.jpeg",
+	img: new URL("../../public/threads/first/002.jpeg", import.meta.url).href,
 	type: "second",
 };
 const thirdThreadPreview: threadPreview = {
 	name: "#3",
-	img: "../../public/threads/first/002.jpeg",
+	img: new URL("../../public/threads/first/002.jpeg", import.meta.url).href,
 	type: "third",
 };
 const fourthThreadPreview: threadPreview = {
 	name: "#4",
-	img: "../../public/threads/first/002.jpeg",
+	img: new URL("../../public/threads/first/002.jpeg", import.meta.url).href,
 	type: "fourth",
 };
 const fifthThreadPreview: threadPreview = {
 	name: "#5",
-	img: "../../public/threads/first/002.jpeg",
+	img: new URL("../../public/threads/first/002.jpeg", import.meta.url).href,
 	type: "fifth",
 };
 export const threadTablePreviewCards: { [k in languages]: threadPreview[] } = {

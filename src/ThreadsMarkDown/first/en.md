@@ -1,6 +1,6 @@
 ﻿This tweet is addressed to non-Arab Twitter users If you don't know the whole truth, here's a simple historical summary to clarify things for you:
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)The ongoing war between Israel and Palestine is not a war between two states, so the attack of the Palestinian resistance is not a declaration of war, but only a reaction to ...
+![](../../../public/threads/first/002.jpeg)The ongoing war between Israel and Palestine is not a war between two states, so the attack of the Palestinian resistance is not a declaration of war, but only a reaction to ...
 
 violations that have been taking place for more than 70 years .
 
