@@ -1,7 +1,7 @@
 import MainLayout from "./Layout/MainLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
-import Threads from "./Pages/Threads";
+import Threads from "./Pages/Thread";
 import Images from "./Pages/Images";
 const router = createBrowserRouter([
 	{

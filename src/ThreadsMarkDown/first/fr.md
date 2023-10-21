@@ -40,4 +40,4 @@ si vous êtes une personne libre, vous n'accepterez certainement pas toute cette
 
 Priez pour la Palestine et soutenez la Palestine
 
-![](002.jpeg)
+![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
