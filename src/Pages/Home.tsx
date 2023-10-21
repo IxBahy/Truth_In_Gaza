@@ -1,5 +1,3 @@
-import NavGrid from "@/components/NavGrid";
-
 const Home = () => {
 	const imgUrl = new URL("../../bloody_isreal.webp", import.meta.url).href;
 	// KOSO5T ISRAEL
@@ -20,7 +18,6 @@ const Home = () => {
 			<h3 className="mt-4 text-red-700 text-xl text-center font-bold">
 				Think twice before supporting them!!
 			</h3>
-			<NavGrid />
 		</section>
 	);
 };

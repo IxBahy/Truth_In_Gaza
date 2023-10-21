@@ -1,21 +1,19 @@
 import { ThreadsObject } from "@/utils/threadsMD";
 import Markdown from "react-markdown";
+import { useParams } from "react-router-dom";
 
-const Threads = () => {
-	// const [currentMarkDown, setCurrentMarkDown] = useState<string>();
+const Thread = () => {
+	const { lang, type } = useParams();
 
 	return (
 		<>
 			<section>
-				<h2 className="text-2xl text-center py-2 font-semibold text-red-800 ">
-					Title
-				</h2>
 				<Markdown className="mx-auto px-5">
-					{ThreadsObject["en"]["first"]}
+					{ThreadsObject[lang][type]}
 				</Markdown>
 			</section>
 		</>
 	);
 };
 
-export default Threads;
+export default Thread;

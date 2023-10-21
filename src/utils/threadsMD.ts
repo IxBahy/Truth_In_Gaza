@@ -49,3 +49,57 @@ export const ThreadsObject: threadsObject = {
 	no: { first: first_no },
 	grk: { first: first_grk },
 };
+
+export type threadPreview = {
+	name: string;
+	img: string;
+	type: threadType;
+};
+
+const firstThreadPreview: threadPreview = {
+	name: "#1 History of the Conflict",
+	img: "../../public/threads/first/002.jpeg",
+	type: "first",
+};
+const secondThreadPreview: threadPreview = {
+	name: "#2",
+	img: "../../public/threads/first/002.jpeg",
+	type: "second",
+};
+const thirdThreadPreview: threadPreview = {
+	name: "#3",
+	img: "../../public/threads/first/002.jpeg",
+	type: "third",
+};
+const fourthThreadPreview: threadPreview = {
+	name: "#4",
+	img: "../../public/threads/first/002.jpeg",
+	type: "fourth",
+};
+const fifthThreadPreview: threadPreview = {
+	name: "#5",
+	img: "../../public/threads/first/002.jpeg",
+	type: "fifth",
+};
+export const threadTablePreviewCards: { [k in languages]: threadPreview[] } = {
+	en: [
+		firstThreadPreview,
+		secondThreadPreview,
+		thirdThreadPreview,
+		fourthThreadPreview,
+		fifthThreadPreview,
+	],
+	ch: [firstThreadPreview],
+	es: [firstThreadPreview],
+	fr: [firstThreadPreview],
+	grk: [firstThreadPreview],
+	hi: [firstThreadPreview],
+	it: [firstThreadPreview],
+	ko: [firstThreadPreview],
+	ku: [firstThreadPreview],
+	no: [firstThreadPreview],
+	pt: [firstThreadPreview],
+	ru: [firstThreadPreview],
+	sv: [firstThreadPreview],
+	tr: [firstThreadPreview],
+};

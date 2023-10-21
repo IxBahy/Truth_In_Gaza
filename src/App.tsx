@@ -1,8 +1,9 @@
 import MainLayout from "./Layout/MainLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
-import Threads from "./Pages/Thread";
+import Thread from "./Pages/Thread";
 import Images from "./Pages/Images";
+import ThreadsPage from "./Pages/ThreadsPage";
 const router = createBrowserRouter([
 	{
 		path: "",
@@ -10,7 +11,6 @@ const router = createBrowserRouter([
 		errorElement: (
 			<>
 				<span className="text-4xl font-bold flex justify-center items-center h-screen ">
-					{" "}
 					404 NOT FOUND!
 				</span>
 			</>
@@ -22,7 +22,11 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "Threads",
-				element: <Threads />,
+				element: <ThreadsPage />,
+			},
+			{
+				path: "Threads/:lang/:type",
+				element: <Thread />,
 			},
 			{
 				path: "/Crimes/:name",
