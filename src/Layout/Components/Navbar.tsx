@@ -51,8 +51,8 @@ const Navbar = () => {
 												History of the Conflict
 											</div>
 											<p className="text-sm leading-tight text-muted-foreground">
-												Lorem ipsum dolor sit amet consectetur adipisicing elit.
-												Ullam, similique.
+												This website is to address the truth of the Palestine
+												and Isreal conflict
 											</p>
 										</li>
 									</Link>
