@@ -30,4 +30,4 @@ Cerca "quartiere di Sheikh Jarrah" su Google e vedrai le violazioni e gli insedi
 
 Se sei una persona libera, è probabile che tu non accetterai certamente tutta questa ipocrisia e distorsione dei fatti da parte della comunità internazionale. Prega per la Palestina e sostieni la Palestina.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)

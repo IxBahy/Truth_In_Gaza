@@ -36,4 +36,4 @@ Si eres una persona libre, seguramente no aceptarás toda esta hipocresía y dis
 
 Reza por Palestina y apoya a Palestina.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)

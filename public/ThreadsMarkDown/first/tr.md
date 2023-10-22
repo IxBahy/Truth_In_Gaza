@@ -40,4 +40,4 @@ Ve Filistin direnişi sadece günlük olarak meydana gelen ihlalleri bir tepkidi
 
 Filistin için dua edin ve Filistin'i destekleyin.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)

@@ -32,4 +32,4 @@ Procure no Google pela vizinhança de Sheikh Jarrahm e você verá as violaçõe
 
 Se você é uma pessoa livre, certamete não aceitará toda essa hipocrisia e distorção dos fatos pela comunidade internacional. Reze pela Palestina e apoie a Palestina.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)

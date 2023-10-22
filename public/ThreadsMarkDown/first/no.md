@@ -44,4 +44,4 @@ Den palestinske motstanden er kun en reaksjon på daglige krenkelser som skjer, 
 
 Be for Palestina og støtt Palestina
 
-![](../../../public/threads/first/003.jpeg)
+![](../../threadsimages/first/003.jpeg)

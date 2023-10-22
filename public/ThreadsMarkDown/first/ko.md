@@ -40,7 +40,7 @@
 
 팔레스타인을 위해 기도하고 팔레스타인을 응원합니다.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)
 
 ` `ﺗﺴﻠﻢ اﯾﺪك
 

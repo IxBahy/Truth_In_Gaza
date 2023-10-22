@@ -26,4 +26,4 @@ Sök på Google efter Sheik Jarrah-kvarteret, och du kommer att se överträdels
 
 Om du är en fri person kommer du säkerligen inte acceptera all denna hyckleri och förvrängning av fakta från den internationella gemenskapen. Be för Palestina och stöd Palestina.
 
-![](../../../public/threads/first/../../../public/threads/first/002.jpeg)
+![](../../threadsimages/first/../../threadsimages/first/002.jpeg)
