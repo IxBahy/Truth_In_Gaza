@@ -25,7 +25,7 @@ export function DataTable<TData, TValue>({
 	return (
 		<div className="rounded-md border">
 			<Table>
-				<TableBody className=" grid grid-cols-2 gap-4 ms-2 mt-6 pb-6  justify-items-center lg:grid-cols-3 lg:w-4/5 lg:mx-auto">
+				<TableBody className="flex flex-col w-full ms-2 mt-6 pb-6  justify-center items-center lg:grid lg:justify-items-center lg:grid-cols-3 lg:w-4/5 lg:mx-auto">
 					{table.getRowModel().rows?.length ? (
 						table.getRowModel().rows.map((row) => (
 							<TableRow

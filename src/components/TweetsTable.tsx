@@ -47,6 +47,7 @@ const TweetsTable = ({ type }: { type: tweetsType }) => {
 			>
 				{currentTweetID && (
 					<TwitterTweetEmbed
+						options={{ theme: "dark" }}
 						tweetId={currentTweetID}
 						placeholder={<Loader />}
 					/>

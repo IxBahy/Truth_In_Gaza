@@ -6,7 +6,7 @@ const Home = () => {
 		<section>
 			<div className=" text-center mt-8 mx-auto w-[360px]">
 				<img className="block" src={imgUrl} alt="" />
-				<p className="mt-4">
+				<p className="mt-4 px-2">
 					This website is to address the truth of the Palestine and Isreal
 					conflict <br />
 					here you will find some threads in multiple languages that explain
@@ -21,7 +21,7 @@ const Home = () => {
 					💚💚SUPPORT PALESTINE 💚💚
 				</p>
 			</div>
-			<h3 className="mt-4 text-red-700 text-md text-center font-bold">
+			<h3 className="mt-4 text-red-700 text-md text-center font-bold px-2">
 				if you can still support isreal to bomb gaza after checking the Isreal
 				war crimes tab i honestly encourge you to question yourself <br />
 				FOR GOD SAKE SAVE GAZA

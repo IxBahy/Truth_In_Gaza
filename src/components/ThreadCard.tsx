@@ -9,22 +9,20 @@ const ThreadCard = ({
 }) => {
 	return (
 		<>
-			<div className=" rounded-lg bg-gray-200 shadow-md border shadow-gray-400 w-[260px] h-[180px] lg:w-[340px] lg:h-[250px] ">
-				<Link to={`/Threads/${lang}/${thread.type}`}>
-					<div className="flex w-full items-center justify-center space-x-6 pt-2 px-2">
-						<div className="flex flex-col justify-center items-center">
-							<img
-								className="max-h-[140px]  "
-								src={thread.img}
-								alt={thread.name}
-							/>
-							<span className="pt-1 text-red-800 font-semibold">
-								{thread.name}
-							</span>
-						</div>
+			<Link to={`/Threads/${lang}/${thread.type}`}>
+				<div className="  w-[260px] h-fit lg:w-[340px] text-center ">
+					<div className="flex flex-col justify-center items-center rounded-lg  shadow-md border shadow-gray-400">
+						<img
+							className="max-h-[140px] w-[260px] lg:w-[340px] "
+							src={thread.img}
+							alt={thread.name}
+						/>
 					</div>
-				</Link>
-			</div>
+					<span className="pt-2 inline-block text-red-800 font-semibold">
+						{thread.name}
+					</span>
+				</div>
+			</Link>
 		</>
 	);
 };
